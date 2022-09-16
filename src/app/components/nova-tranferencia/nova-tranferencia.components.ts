@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
 
 @Component({
-    selector:'app-nova-tranferencia',
-    templateUrl: './nova-tranferencia.components.html',
-    styleUrls: ['./nova-tranferencia.components.scss'],
+  selector: 'app-nova-tranferencia',
+  templateUrl: './nova-tranferencia.components.html',
+  styleUrls: ['./nova-tranferencia.components.scss'],
 })
-export class NovaTranferenciaComponents{
+export class NovaTranferenciaComponents {
 
+  transferir() {
+    console.log("transfer")
+  }
 }
