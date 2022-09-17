@@ -4,12 +4,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NovaTranferenciaComponents } from './components/nova-tranferencia/nova-tranferencia.components';
+import { NovaTransferenciaComponents } from './components/nova-tranferencia/nova-tranferencia.components';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NovaTranferenciaComponents
+    NovaTransferenciaComponents
   ],
   imports: [
     BrowserModule,
